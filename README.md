@@ -1,4 +1,4 @@
-# Sumary
+# Summary
 Compile and run LuaJIT on an ARM 64 machine. I tested this on a AWS T4g instance, which use "Arm-based AWS Graviton2 processors", running `Ubuntu 20.04.2 LTS`.
 
 Make sure your luajit is compiled with `CFLAGS+=-DLUA_USE_APICHECK` and
